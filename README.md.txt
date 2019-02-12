@@ -26,5 +26,28 @@ Exibicao de logs
 	git shortlog -sn
 	git log --graph
 
+SSH
+…or create a new repository on the command line
+echo "# gitbubcourse" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:souzagonzaga/gitbubcourse.git
+git push -u origin master
 
-Modificacoes de teste apenas
+…or push an existing repository from the command line
+git remote add origin git@github.com:souzagonzaga/gitbubcourse.git
+git push -u origin master
+
+HTTPS
+…or create a new repository on the command line
+echo "# gitbubcourse" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/souzagonzaga/gitbubcourse.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/souzagonzaga/gitbubcourse.git
+git push -u origin master
