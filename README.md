@@ -52,3 +52,8 @@ git push -u origin master
 git remote add origin https://github.com/souzagonzaga/gitbubcourse.git
 git push -u origin master
 
+
+# Para clonar um determinado repositório remoto
+git clone git@github.com:souzagonzaga/gitbubcourse.git githubcourse
+
+
