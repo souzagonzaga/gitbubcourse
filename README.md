@@ -57,3 +57,15 @@ git push -u origin master
 git clone git@github.com:souzagonzaga/gitbubcourse.git githubcourse
 
 
+#Lista todos os branches existentes
+git branch
+
+#Cria um novo branch
+git checkout -b [NOME DO BRANCH]
+
+#Entra em um determinado branch
+git checkout [NOME DO BRANCH]
+
+#Deleta um branch existente
+git branch -D [NOME DO BRANCH]
+
