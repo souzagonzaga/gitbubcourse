@@ -69,3 +69,8 @@ git checkout [NOME DO BRANCH]
 #Deleta um branch existente
 git branch -D [NOME DO BRANCH]
 
+# Para realizar o merge
+git merge [NOME DO BRANCH]
+
+# Para realizar o rebase
+git rebase [NOME DO BRANCH]
