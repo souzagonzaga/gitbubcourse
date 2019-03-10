@@ -82,3 +82,9 @@
 
 # Para realizar o rebase
 	git rebase [NOME DO BRANCH]
+
+# Git .gitignore - Possibilita ignorarmos arquivos ou pastas quando formos subir nosso projeto para o Github
+	- Crie um arquivo na sua estrutura de diretórios como o nome: .gitignore
+	- Informe nesse arquivo em questão os arquivos ou pastas que sevem ser ignorados conforme o exemplo:
+		*.json - Todos os arquivos com a estensão referencia serão ignorados.
+		teste.db - Os arquivos também podem ser refernciados nominalmente.
