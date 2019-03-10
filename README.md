@@ -88,3 +88,9 @@
 	- Informe nesse arquivo em questão os arquivos ou pastas que sevem ser ignorados conforme o exemplo:
 		*.json - Todos os arquivos com a estensão referencia serão ignorados.
 		teste.db - Os arquivos também podem ser refernciados nominalmente.
+
+# Git stash - Permite manter modificações "guardadas" para serem postadas posteriormente. Mantendo o Branch principal intacto.
+	git stash - Add todos os arquivos que estão no estado "Modified"
+	git stash clear - Limpa todos os "Storages" stash existentes
+	git stash apply - Devolve os arquivos "Modified" que estavam "guardados" ao controle de versão
+	git stash list - Lista todos os "Storages" stash existentes
