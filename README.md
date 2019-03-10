@@ -94,3 +94,7 @@
 	git stash clear - Limpa todos os "Storages" stash existentes
 	git stash apply - Devolve os arquivos "Modified" que estavam "guardados" ao controle de versão
 	git stash list - Lista todos os "Storages" stash existentes
+
+# Git tag - Adicione tags a cada um de seus controles de versão. Por exemplo, a cada liberação de uma nova versão do sistema para produção pode ser add uma nova tag com uma descrição identificando o que foi feito nessa versão em específico.
+	git tag -a 1.0.0 -m"New features added"
+	git push origin master --tags
