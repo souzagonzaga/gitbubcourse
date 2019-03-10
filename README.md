@@ -97,4 +97,8 @@
 
 # Git tag - Adicione tags a cada um de seus controles de versão. Por exemplo, a cada liberação de uma nova versão do sistema para produção pode ser add uma nova tag com uma descrição identificando o que foi feito nessa versão em específico.
 	git tag -a 1.0.0 -m"New features added"
-	git push origin master --tags
+	git push origin master --tags - up to Github
+	git tag - Lista todas as tags existentes
+
+# Git revert - Permite a reversão de uma postagem mal sucessida em produção de forma mais rápida.
+	git revert [COMMIT_HASH]
